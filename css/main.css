@@ -1,0 +1,53 @@
+.body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.gallery {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.gallery .photos {
+    margin-top: 15px;
+    position: relative;
+    height: 400px;
+}
+
+
+.gallery__images {
+    margin: 20px;
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    opacity: 1;
+    text-align: center;
+    border: 1px solid green;
+}
+
+.gallery__images_showed {
+    opacity: 1;
+
+}
